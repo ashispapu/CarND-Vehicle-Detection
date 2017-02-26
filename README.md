@@ -67,3 +67,22 @@ HOG feature extraction is the most important technique utilized in this project.
 ![hog_visualization]
 
 The final feature extraction method that was implemented includes color histograms, spatial binning, and HOG
+
+### Preprocessing Data
+
+The training data was normalized, randomized, and splitted into training and testing sets, with 20% of the data segregated for the testing set.
+
+---
+
+### Training the SVC Classifier
+
+After exploring feature extraction techniques, I trained a SVC classifier to classify the dataset as "vehicle" or "not-vehicle".  The accuracy for this classifier was above 94% for multiple iterations .  I analyzed two different feature vectors and ran them through the classfier to produce the following results:
+
+**Classification by Color and Spatial Binning**
+![color_classification]
+
+**Classification by HOG**
+![hog_classification]
+
+After comparing these two results, I decided to encorporate both of them as one feature vector that I retrained prior to running sliding windows on the test image, as explained next.
+
