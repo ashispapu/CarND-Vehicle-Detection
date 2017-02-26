@@ -123,7 +123,7 @@ Two more things are the sliding window  technique and  removing false positives 
 
 My future course of action would be to implement the same with deep learning object detection and recognition techniques , which is more robust .
 
-It's new learning experience all together with different types of features from the images .
+It's a new learning experience all together with different types of features from the images .
 
 Thank you !
 
