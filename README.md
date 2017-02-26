@@ -84,5 +84,28 @@ After exploring feature extraction techniques, I trained a SVC classifier to cla
 **Classification by HOG**
 ![hog_classification]
 
-After comparing these two results, I decided to encorporate both of them as one feature vector that I retrained prior to running sliding windows on the test image, as explained next.
+After comparing these two results, I decided to encorporate both of them as one feature vector that I retrained prior to running sliding windows on the test image, as explained next.  
+
+
+### Sliding Windows Search
+
+![sliding_windows]
+
+P5_Vehicle_Detection_and_Tracking.ipynb outlines the sliding windows approach to search for vehicles in a test image with trained SVC classifier. Scale at 1 seems to be  performed well. I limited the search area to the bottom half of the image, minus the bottom 10%, for a total of 40% of the image to lower the total number of windows I needed to make.
+
+The parameters I chose for the sliding windows themselves are as follows: 
+
+| Parameter  | Value             |
+|:----------:|:-----------------:| 
+| y_start    | image width x 0.5 |  
+| y_stop     | image width x 0.9 |
+| xy_window  | (64,64)           |
+| xy_overlap | (0.8, 0.8)      |
+
+These parameters produced the following results:
+
+![positive_window_detections]
+
+
+
 
