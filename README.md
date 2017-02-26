@@ -4,7 +4,7 @@
 [//]: # (Image References)
 [color_classification]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/color_classification.png
 [color_distribution_visualization]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/color_distribution_visualization.png
-[color_histograms_visualization]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/color_histograms_visualization.png
+[color_histograms_visualization]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/histograms_color_visualization.png
 [data_visualization]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/data_visualization.png
 [distortion]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/screenshots/distortion.png
 [gradient_visualization]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/gradient_visualization.png
