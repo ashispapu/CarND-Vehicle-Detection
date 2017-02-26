@@ -103,8 +103,15 @@ The parameters I chose for the sliding windows themselves are as follows:
 | xy_overlap | (0.8, 0.8)      |
 
 These parameters produced the following results:
+The overlap of 0.8 allowed for a strong signature of positive window values on the actual vehicle that simplified the process of ruling out false positives with heat maps, as shown in the image below:
 
-![positive_window_detections]
+![heatmap]
+
+After recording the positions of positive detections in each frame of the video, I created a heatmap and thresholded it to identify vehicle positions. I then used `scipy.ndimage.measurements.label()` to identify individual blobs in the heatmap. 
+
+Assuming each cluster of positive windows corresponded to a vehicle, I constructed bounding boxes to cover the area of each blob detected. After detecting the correct no of cars, I was able to combine the positive bounding boxes into one bounding box for each car:
+
+![one_box_per_car]
 
 
 
