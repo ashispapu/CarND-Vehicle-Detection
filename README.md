@@ -109,9 +109,17 @@ The overlap of 0.8 allowed for a strong signature of positive window values on t
 
 After recording the positions of positive detections in each frame of the video, I created a heatmap and thresholded it to identify vehicle positions. I then used `scipy.ndimage.measurements.label()` to identify individual blobs in the heatmap. 
 
-Assuming each cluster of positive windows corresponded to a vehicle, I constructed bounding boxes to cover the area of each blob detected. After detecting the correct no of cars, I was able to combine the positive bounding boxes into one bounding box for each car:
+### Video
 
-![one_box_per_car]
+Below is the url  to the final video output  .
+
+### P5_project_video_final.mp4
+https://youtu.be/b3wknVJvG-I
+
+<a href="https://www.youtube.com/watch?v=b3wknVJvG-I&feature=youtu.be
+" target="_blank"><img src="http://img.youtube.com/vi/Vx5GtROunzQ/0.jpg" 
+alt="YouTube" width="240" height="180" border="10" /></a>
+
 
 
 
