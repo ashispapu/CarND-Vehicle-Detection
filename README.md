@@ -19,6 +19,4 @@
 [undistorted]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/undistorted.png
 [undistorted_and_warped]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/undistorted_and_warped.png
 
-[![loading_screen](https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/screenshots/loading_screen.png)](http://www.udacity.com/drive)
-## Udacity's Self-Driving Car Nanodegree Program
 ### Project 5 - Vehicle Detection and Tracking
