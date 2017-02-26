@@ -5,19 +5,14 @@
 [color_classification]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/color_classification.png
 [color_distribution_visualization]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/color_distribution_visualization.png
 [color_histograms_visualization]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/histograms_color_visualization.png
-[data_visualization]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/data_visualization.png
 [distortion]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/screenshots/distortion.png
 [gradient_visualization]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/gradient_visualization.png
 [heatmap]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/heatmap.png
 [hog_classification]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/hog_classification.png
 [hog_visualization]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/hog_visualization.png
-[loading_screen]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/screenshots/loading_screen.png
-[one_box_per_car]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/one_box_per_car.png
-[random_image_visualization]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/random_image_visualization.png
 [sliding_windows]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/sliding_windows_test4.png
 [spatial_binning_visualization]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/spatial_binning_visualization.png
-[undistorted]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/undistorted.png
-[undistorted_and_warped]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/undistorted_and_warped.png
+
 
 ### Project 5 - Vehicle Detection and Tracking
 
@@ -122,17 +117,14 @@ alt="YouTube" width="240" height="180" border="10" /></a>
 
 ### Discussion
 
-Getting the right combination of parameters to make the code work on the video pipeline was bit challenging .Feature extraction played a major role and combining results of different feature extractors  was  a good learning point .I observed HOG and spatial binning are very crucial for this project . 
+Getting the right combination of parameters to make the code work on the video pipeline was a bit challenging .Feature extraction played a major role and combining results of different feature extractors  was  a good learning point .I observed HOG and spatial binning are very crucial for this project . 
 
 Two more things are the sliding window  technique and  removing false positives from the video frames also very important .
 
 My future course of action would be to implement the same with deep learning object detection and recognition techniques , which is more robust .
 
-It's new learning experience all together with types of features from the images .
+It's new learning experience all together with different types of features from the images .
 
 Thank you !
-
-
-
 
 
