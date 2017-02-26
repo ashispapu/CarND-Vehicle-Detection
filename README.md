@@ -14,7 +14,7 @@
 [loading_screen]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/screenshots/loading_screen.png
 [one_box_per_car]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/one_box_per_car.png
 [random_image_visualization]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/random_image_visualization.png
-[sliding_windows]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/sliding_windows.png
+[sliding_windows]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/sliding_windows_test4.png
 [spatial_binning_visualization]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/spatial_binning_visualization.png
 [undistorted]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/undistorted.png
 [undistorted_and_warped]: https://github.com/ashispapu/CarND-Vehicle-Detection/blob/master/output_images/undistorted_and_warped.png
