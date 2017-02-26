@@ -120,6 +120,18 @@ https://youtu.be/b3wknVJvG-I
 " target="_blank"><img src="http://img.youtube.com/vi/Vx5GtROunzQ/0.jpg" 
 alt="YouTube" width="240" height="180" border="10" /></a>
 
+### Discussion
+
+Getting the right combination of parameters to make the code work on the video pipeline was bit challenging .Feature extraction played a major role and combining results of different feature extractors  was  a good learning point .I observed HOG and spatial binning are very crucial for this project . 
+
+Two more things are the sliding window  technique and  removing false positives from the video frames also very important .
+
+My future course of action would be to implement the same with deep learning object detection and recognition techniques , which is more robust .
+
+It's new learning experience all together with features from the images .
+
+Thank you !
+
 
 
 
