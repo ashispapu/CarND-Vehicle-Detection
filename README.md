@@ -57,11 +57,17 @@ Gradient magnitude is a technique used in previous computer vision projects (Pro
 
 **Histogram of Oriented Gradients (HOG)**
 
-HOG feature extraction is the most important technique utilized in this project. The scikit-image package has a built in function to handle HOG extraction, which is tuned by parameters including orientations, pixels_per_cell, and cells_per_block.
+HOG feature extraction is the most important technique utilized in this project. The scikit-image package has a built in function to handle HOG extraction, which is tuned by parameters including orientations, pixels_per_cell, and cells_per_block. 
+
+orientations : I tried with both 8 and 9 , later find there is no such huge difference , so kept it with 8 .
+pixels_per_cell and cells_per_block : I kept these values  unchanged what I tried earlier in scikit-image HOG tutorial .This gave a good result .
+
 
 ![hog_visualization]
 
-The final feature extraction method that was implemented includes color histograms, spatial binning, and HOG
+The final feature extraction method that was implemented includes color histograms, spatial binning, and HOG .
+I have converted BGR to YUV representation in the final step of feature extraction .I choose it over other because , image/video codecs are YUV so they can reduce the resolution of the U and V channels while keeping Y at full resolution, because luminance is more important than color .
+
 
 ### Preprocessing Data
 
