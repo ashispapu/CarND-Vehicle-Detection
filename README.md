@@ -98,7 +98,7 @@ The parameters I chose for the sliding windows themselves are as follows:
 
 | Parameter  | Value             |
 |:----------:|:-----------------:| 
-| y_start    | image width x 0.5 |  
+| y_start    | image width x 0.45 |  
 | y_stop     | image width x 0.9 |
 | xy_window  | (64,64)           |
 | xy_overlap | (0.8, 0.8)      |
